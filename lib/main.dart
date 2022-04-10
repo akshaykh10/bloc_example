@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:bloc_example/logic.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import 'bloc/bloc_logic.dart';
+import 'bloc/events.dart';
+import 'bloc/state.dart';
+
 void main() {
   runApp(const MyApp());
 }
